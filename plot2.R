@@ -1,6 +1,6 @@
 drawPlot2<-function(){
   resetWorkDir()
-  #loadData()
+  loadData()
   dataSet<-readData()
   plot2(dataSet)
 }
